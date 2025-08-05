@@ -1,0 +1,164 @@
+✅ 01_Java_Basics.md
+
+You can copy-paste this directly into your GitHub repo as 01_Java_Basics.md.
+
+
+---
+
+# 📘 01 – Java Basics
+
+This file covers the core basics of Java necessary to start your journey in programming and Data Structures & Algorithms (DSA).
+
+---
+
+## 🧠 1. Hello World in Java
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+
+---
+
+📌 2. Java Data Types
+
+Data Type	Example	Size
+
+int	10	4 bytes
+float	10.5f	4 bytes
+double	10.5	8 bytes
+char	'A'	2 bytes
+boolean	true / false	1 bit
+String	"Hello"	—
+
+
+
+---
+
+✍️ 3. Variables & Constants
+
+int age = 25;
+float pi = 3.14f;
+final int MAX = 100; // Constant
+
+
+---
+
+📥 4. Input in Java (Using Scanner)
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        System.out.println("You entered: " + num);
+    }
+}
+
+
+---
+
+⚙️ 5. Operators
+
+Arithmetic: +, -, *, /, %
+
+Relational: ==, !=, <, >, <=, >=
+
+Logical: &&, ||, !
+
+
+
+---
+
+🔁 6. Conditionals
+
+if-else Example:
+
+int age = 20;
+if(age >= 18) {
+    System.out.println("Adult");
+} else {
+    System.out.println("Not Adult");
+}
+
+switch Example:
+
+int day = 2;
+switch(day) {
+    case 1: System.out.println("Mon"); break;
+    case 2: System.out.println("Tue"); break;
+    default: System.out.println("Other day");
+}
+
+
+---
+
+🔄 7. Loops in Java
+
+for loop:
+
+for(int i = 0; i < 5; i++) {
+    System.out.println(i);
+}
+
+while loop:
+
+int i = 0;
+while(i < 5) {
+    System.out.println(i);
+    i++;
+}
+
+do-while loop:
+
+int i = 0;
+do {
+    System.out.println(i);
+    i++;
+} while(i < 5);
+
+
+---
+
+🧮 8. Arrays
+
+int[] arr = new int[5]; // Declaration
+arr[0] = 10;            // Assignment
+
+for(int i = 0; i < arr.length; i++) {
+    System.out.println(arr[i]);
+}
+
+
+---
+
+📘 9. Basic Java Code Template
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        // Your code here
+    }
+}
+
+
+---
+
+✅ Practice Tasks
+
+1. Write a program to take 2 numbers and print their sum.
+
+
+2. Write a program to check if a number is even or odd.
+
+
+3. Write a program to print numbers from 1 to N using a loop.
+
+
