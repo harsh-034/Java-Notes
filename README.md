@@ -8,7 +8,7 @@ The content is beginner-friendly and suitable for interview preparation, academi
 
 ## 🔰 Topics Covered
 
-1. [Java Basics](01_Java_Basics.md)
+1. [Java Basics](01_Java_Basics)
 2. [OOP Concepts](02_OOP_Concepts.md)
 3. [Arrays](03_Arrays.md)
 4. [Strings](04_Strings.md)
