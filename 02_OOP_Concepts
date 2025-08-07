@@ -14,3 +14,5 @@ public class Main {
         System.out.println(myCar.color);
     }
 }
+
+// Class is a blueprint, and object is the real instance.
