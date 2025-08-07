@@ -16,3 +16,121 @@ public class Main {
 }
 
 // Class is a blueprint, and object is the real instance.
+
+
+
+// 2. Encapsulation – Secure Teacher Data
+
+class Teacher {
+    private String name;
+    private double salary;
+
+    public Teacher(String name, double salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setSalary(double salary) {
+        if (salary > 0)
+            this.salary = salary;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+}
+
+// Salary is protected from direct access (Encapsulation)
+
+
+// 3. Inheritance – Staff is a Person
+
+class Person {
+    String name;
+
+    void speak() {
+        System.out.println(name + " is speaking...");
+    }
+}
+
+class Staff extends Person {
+    String department;
+
+    void showDetails() {
+        System.out.println(name + " works in " + department);
+    }
+}
+
+// Staff inherits properties and methods from Person.
+
+
+//4. Polymorphism – Method Overriding in Exam Result
+
+class Result {
+    void showResult() {
+        System.out.println("Result: Pending...");
+    }
+}
+
+class FinalResult extends Result {
+    void showResult() {
+        System.out.println("Result: Passed!");
+    }
+}
+
+//Same method, different output depending on the object → Polymorphism
+
+// 5. Abstraction – Payment System
+
+abstract class Payment {
+    abstract void makePayment();
+}
+
+class UpiPayment extends Payment {
+    void makePayment() {
+        System.out.println("Payment done using UPI.");
+    }
+}
+
+class CardPayment extends Payment {
+    void makePayment() {
+        System.out.println("Payment done using Card.");
+    }
+}
+
+// You hide how payment is done and only show that it will be done.
+
+
+
+
+// Final Real-Life Use Case:
+
+public class SchoolApp {
+    public static void main(String[] args) {
+        // Student object
+        Student s = new Student("Aman", 23);
+        s.showInfo();
+
+        // Teacher object
+        Teacher t = new Teacher("Mrs. Sharma", 40000);
+        System.out.println(t.getName() + " earns " + t.getSalary());
+
+        // Inheritance
+        Staff staff = new Staff();
+        staff.name = "Ravi";
+        staff.department = "Admin";
+        staff.showDetails();
+
+        // Polymorphism
+        Result r = new FinalResult();
+        r.showResult();  // Output: Passed!
+
+        // Abstraction
+        Payment p = new UpiPayment();
+        p.makePayment();  // Output: Payment done using UPI.
+    }
+}
