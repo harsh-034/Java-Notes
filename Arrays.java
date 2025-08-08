@@ -50,4 +50,51 @@ Average Marks: 80.6
 Highest Marks: 90
 Lowest Marks: 68
 Marks in Ascending Order: [68, 75, 82, 88, 90]
+
+
+
+
+- What is an Array?
+
+An array is a linear data structure used to store elements of the same type in contiguous memory locations.
+
+- Key Characteristics:
+
+Fixed size (declared at creation)
+
+Indexed (0 to n-1)
+
+Homogeneous elements
+
+Fast access using index
+
+
+
+---
+
+- Types of Arrays:
+
+1. 1D Array – Single row of elements
+→ Example: int[] arr = {10, 20, 30};
+
+
+2. 2D Array – Like a matrix
+→ Example: int[][] matrix = new int[3][3];
+
+
+
+
+---
+
+ - Basic Operations in DSA (Time Complexities):
+
+Operation	Time Complexity
+
+Access (arr[i])	O(1)
+Insert at End	O(1)
+Insert at Index	O(n)
+Delete at Index	O(n)
+Search (linear)	O(n)
+Search (binary)*	O(log n)
+
 */
