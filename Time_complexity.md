@@ -11,3 +11,6 @@ type of time comTime plexity:
 
 3.werest omplexity
 
+ime complexity measures how many operations an algorithm completes in relation to the size of the input. 
+
+![alt text](time-complexity-in-data-structure.png)
