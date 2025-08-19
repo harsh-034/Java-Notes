@@ -1,3 +1,4 @@
+package Arrays;
 // A college stores the marks of students for a particular subject in an array. You are required to:
 
 import java.util.Arrays;
