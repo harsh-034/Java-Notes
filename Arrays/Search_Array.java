@@ -15,7 +15,7 @@ public class Search_Array {
 
         int[] num = new int[size];
 
-        for(int i=0; i<size; i++)
+        for(int i=0; i<num.length; i++)
         {
             num[i] = sc.nextInt();
         }
@@ -23,7 +23,7 @@ public class Search_Array {
         System.out.print("Enter the search number: ");
         int Search = sc.nextInt();
 
-        for(int i=0; i<size ; i++)
+        for(int i=0; i<num.length ; i++)
         {
             if(Search == num[i]){
                
