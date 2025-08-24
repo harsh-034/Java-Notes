@@ -42,7 +42,7 @@ public class String_all_concept {
         }
 
 
-        //Subtring(Starting index number , end index number  );
+        //Substring(Starting index number , end index number  );
         //Ther are use for Small part are dislay to string 
 
         //Example 
