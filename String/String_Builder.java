@@ -5,13 +5,18 @@ public class String_Builder {
     public static void main(String[] args){
         //String in Java are immutable becouse i will not cange after one time decration    
 
-        StringBuilder name = new StringBuilder("Harsh");
+        StringBuilder name = new StringBuilder("harsh");
         System.out.println(name);  //output harsh
 
         // charAt( index number )   this is index number are get and return value of thish number 
 
         //Example
          System.out.println(name.charAt(3));// output: s
+
+         //Thet use index function ther are use for serching 
+         System.out.println("use of index function for search :"+name.indexOf("s"));
+
+         System.out.println("use lest index number function are use:" + name.lastIndexOf("h"));
 
 
          //setcharAt(indexnumber, replace value )  ther use for replace value on index number 
@@ -53,6 +58,9 @@ public class String_Builder {
          //reverse are use for ulta
           str.reverse();
           System.out.println(str);// reverse are output :  olleh
+
+
+          
 
 
     }
