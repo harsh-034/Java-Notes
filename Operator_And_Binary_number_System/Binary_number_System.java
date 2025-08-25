@@ -83,7 +83,7 @@ public class Binary_number_System{
             ans: 1100
             */
 
-     // >> Binary number  shift right side 
+       // >> Binary number  shift right side 
 
      /*
       setex :  value opreter  Potion 
@@ -113,26 +113,26 @@ public class Binary_number_System{
     // "*="
      
           int e = 10 , f = 5;
-          e *= f ; // C = C * D
+          e *= f ; // e = e * f
           System.out.println("*= use : "+e);
 
     // "-="
      
           int g = 10 , h = 5;
-          g -= h ; // C = C * D
+          g -= h ; // g = g - h
           System.out.println("-= use : "+g);
 
     // "/="
      
           int i = 10 , j = 5;
-          i /= j ; // C = C * D
-          System.out.println("*= use : "+i);
+          i /= j ; // i = i / j
+          System.out.println("/= use : "+i);
 
     // "%="
      
           int k = 10 , l = 5;
-          l *= k ; // C = C * D
-          System.out.println("*= use : "+l);
+          l %= k ; // k = k % l
+          System.out.println("%= use : "+l);
     
     
 
