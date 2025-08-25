@@ -56,14 +56,14 @@ public class Operator {
         j = i--;
 
          System.out.println("post decrement :"+i); // first Assine the value
-        System.out.println("post Decrement :"+j); // second Value are chage 
+        System.out.println("post Decrement :"+j); //  second Value are chage 
 
         // pre dicrement 
 
          int  k = --i;
 
         System.out.println("pre decriment :" + i); //first value change 
-        System.out.println("pre decriment :" + k); //Second valuse asshine 
+        System.out.println("pre decriment :" + k); // Second valuse asshine 
 
 
   // Logical Opreter 
@@ -75,7 +75,7 @@ public class Operator {
         System.out.println("True");
          System.out.println("false");
 
-        // ||(OR Opreter ther are use   ) 
+        // || (OR Opreter ther are use   ) 
         
         if(a<b || a>b)// any true then answer are true  
         {System.out.println(" any true the answer are True");}
