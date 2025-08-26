@@ -19,6 +19,8 @@ public class Set_Bit {
     steps 2 opretion :- 0010 |(OR) 0101(5)
                         final value -> 0111   potion index 1 is 0 to convert(set) 1
       0111 = 7
+
+      ther are 0 ya 1 ther dicide original number 
      */
 
     // Q :-> Set the 2nd bit (position = 1) of a number n (n== 0101) (5).
