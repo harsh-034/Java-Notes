@@ -1,5 +1,7 @@
 package _Bit_Manipulation;
 
+import java.util.Scanner;
+
 public class Update_Bit {
     public static void main(String[] args){
         //This Method is  used to update the bit at a particuler potion (say i) of the given number N.
@@ -41,6 +43,26 @@ public class Update_Bit {
           
           
          */
-         
+        // the 2nd bit (Position = 1 ) of number get user  n to 1. n =(0101)
+     
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Bit number get 0 and 1 :");
+        // num : clear in 0 : set in 1 
+        int num = sc.nextInt();
+
+        int n = 5; //0101
+        int pos = 1; //0001
+        int BitMask = 1 << pos;// 1 << i = 0001 << 1 = 0010
+        // Set for 1 update place in 0
+        if(num == 1){ 
+            int newNumber = BitMask | n;
+            System.out.println(newNumber);
+            //Clear for 0 place of 1
+        }else{
+            int NotBit = ~(BitMask);
+            int newNumber = NotBit & n;
+            System.out.println(newNumber);
+        }
+        
     }
 }
