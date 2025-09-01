@@ -1,4 +1,4 @@
-# Java + DSA Notes 📚
+## Java + DSA Notes 📚
 
 This repository contains beginner to advanced level notes for **Java Programming and Data Structures & Algorithms (DSA)**.
 
