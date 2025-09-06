@@ -10,7 +10,8 @@ public class S {
 
         S.insert(5," ");
 
-        System.out.print(S.length());
+        //System.out.print(S.length());
+        System.out.print(S.indexOf("h"));
 
 
     }
