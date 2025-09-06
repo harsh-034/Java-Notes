@@ -14,7 +14,7 @@
 
 public class helf_paramd_with_number {
 
-    public static void main(String[] args) {
+    public static void main(S[] args) {
         int n=5;
         for (int i=1;i<=n;i++)
         {

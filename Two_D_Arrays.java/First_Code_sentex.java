@@ -1,7 +1,7 @@
 //Ther are print metrix  and use arrays
 import java.util.*;
 public class First_Code_sentex {
-    public static void main(String[] args)
+    public static void main(S[] args)
     {
      Scanner sc = new Scanner(System.in);
      System.out.println("Enter the size of rows :");

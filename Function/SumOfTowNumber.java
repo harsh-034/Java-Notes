@@ -13,7 +13,7 @@ public class SumOfTowNumber {
 
 
 
-    public static void main(String[] args){
+    public static void main(S[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the First Number :");
         int a = sc.nextInt();

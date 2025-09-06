@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Search_num_in_Arrays {
-    public static void main(String[] args){
+    public static void main(S[] args){
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter the row number :");
       int row = sc.nextInt();

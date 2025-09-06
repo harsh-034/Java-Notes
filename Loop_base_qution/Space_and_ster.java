@@ -14,7 +14,7 @@
 
 
 public class Space_and_ster {
-   public static void main(String[] args) {
+   public static void main(S[] args) {
     int n=4;
 
     for(int i=1; i<=n; i++)//1
