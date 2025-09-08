@@ -5,13 +5,13 @@ public class FunctionExample {
         System.out.println(name);
         // "Void" useing  then not requrd of "return" keywords write 
         return;   // return ther are use for leve in loop 
-                  //and public static int Function_Name(){}  == return 1; ther use 
+        //and public static int Function_Name(){}  == return 1; ther use 
     }
-
+/* */
     public static void main(S[] args){
         Scanner sc = new Scanner(System.in); // use for input 
         System.out.print("Enter Your Name :");
-        S name = sc.nextLine();
+        String name = sc.nextLine();
         PrintMyName(name);// Call Function and ther are write same name of function 
     }
 }
