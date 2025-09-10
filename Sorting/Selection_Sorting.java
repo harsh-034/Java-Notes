@@ -27,3 +27,4 @@ public class Selection_Sorting {
         printarr(arr);//call
     }
 }
+//time complexcity = O(n^2)
