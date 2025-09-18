@@ -28,3 +28,28 @@ public class Selection_Sorting {
     }
 }
 //time complexcity = O(n^2)
+
+
+//  public static void arrprint(int arr[]){
+//         for(int i= 0; i<arr.length; i++){
+//             System.out.print(arr[i]);
+//         }
+//         System.out.println();
+//     }
+// public static void main(String[] args){
+//     int arr[] = {1,3,2,6,7};
+//     for(int i = 0;i<arr.length-1; i++ ){
+//         int smaller = i;//one element 
+//         for(int j = i+1; j<arr.length;j++){
+//             if(arr[smaller]>arr[j]){
+//                 smaller = j; //ther are store in two 
+//             }
+           
+//             }
+//              int temp = arr[smaller];//temp =2
+//             arr[smaller] = arr[i];  //smaller = 3
+//             arr[i] = temp;//i=2
+//         }
+//         arrprint(arr);//i=2
+//     }
+ 
